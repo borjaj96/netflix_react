@@ -22,6 +22,12 @@ function App() {
         </div>
       </main>
       
+      <footer>
+        <a href="https://www.themoviedb.org/?language=es" target="_blank" className='footerA'>
+          <img src="tmdb.svg" className="logoFooter" alt="Logo de TMDB" />
+        </a>
+      </footer>
+
     </div>
   )
 }

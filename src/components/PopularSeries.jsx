@@ -38,7 +38,7 @@ export const PopularSeries = () => {
 
   return (
     <>
-        <h1 className="">Mejores series</h1>
+        <h2 className="">Mejores series</h2>
             <div className="box">
               {series.length > 0 ? (
                 series.slice(0, 6).map((serie) => (  // Limitamos a 6 películas
